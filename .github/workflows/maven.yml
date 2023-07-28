@@ -28,4 +28,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file ./music-streaming-service-app/pom.xml
+    - name: Execute Jar file
+      run: sudo kill -9 `sudo lsof -t -i:8080` & sudo java -jar /home/ubuntu/actions-runner/_work/Music_Streaming_Service_API/Music_Streaming_Service_API/music-streaming-service-app/target/music-streaming-service-app-0.0.1-SNAPSHOT.jar &
 
