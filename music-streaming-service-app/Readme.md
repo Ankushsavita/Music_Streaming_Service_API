@@ -1,6 +1,16 @@
 # Music Streaming Service API Application :-
 * Swagger Link :
-- 
+* http://16.16.57.33:8080/swagger-ui/index.html#/
+
+## Dependencies:
+- spring web
+- spring devtools
+- lombok
+- validation
+- mysql driver
+- spring data jpa
+- swagger
+  
 ## Frameworks and language used:
 -  Java
 -  Spring Boot
@@ -14,6 +24,7 @@
 
 
 * **Model** :
+* 
   There are Three Model class in this application.
     * User Model 
     * Song Model 
